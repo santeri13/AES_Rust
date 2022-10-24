@@ -41,8 +41,3 @@ Because our key is k10 program need to reverse k until it become k0. For that we
 Standard Key Expansion take first column of matrix and xor it with last colum of g(matrix). This g use Byte_Sub for colun, next each coumn is xored by previouse new matrix value and curent matrix value.
 
 For reversing key, function take last column of key and xor it with previouse column, with that we recive columns from 2-4. For last column function take last column of new key and Byte_Sub it with Reverse S-box, next this result would be xored with first column of key and recive first colum of reversed key.
-
-|
-|
-|
-|
