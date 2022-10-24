@@ -37,4 +37,5 @@ When we multipled all this values we xor them and put each value into new messag
 ## Inverse_Key_Expansion
 
 Because our key is k10 program need to reverse k until it become k0. For that we take k10 and make reverse it back by one, so to k9 but in main function we repeat this by 10 time.
-Standard Key Expansion take first column of matrix and xor it with last colum of g(matrix). This g use Byte_Sub for colum and next each each row is xored by previouse new matrix value and curent matrix value.
+
+Standard Key Expansion take first column of matrix and xor it with last colum of g(matrix). This g use Byte_Sub for colum and next each row is xored by previouse new matrix value and curent matrix value.
