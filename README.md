@@ -35,7 +35,7 @@ For multipliction of this values need to use Finite field arithmetic. For that w
 
 To know that I undertand how it works I make example: we have two value 00010000 and 01100011, multiplication of this values: X4 * (1+X+X5+X6) = X4+X5+X6+X7 = 1111 0000.
 
-When we multipled all this values we xor them and put each value into new message whcih would be replace old.
+When fufnction multiply all this values function xor them and put each value into new message which would replace old.
 
 ## Inverse_Key_Expansion
 
