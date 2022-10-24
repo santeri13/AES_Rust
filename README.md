@@ -31,7 +31,7 @@ When function recive message it would be splited for 4 row. Funtion take each ro
 With for cycle we take each row of predefined message and next for would construct column from message. Next we need to multiply each hex from both values and xor them: 
 hex_value_column_1 * hex_value_row_1 (xor) hex_value_column_2 * hex_value_row_2 (xor) hex_value_column_3 * hex_value_row_3 (xor) hex_value_column_4 * hex_value_row_4.
 For multipliction of this values need to use Finite field arithmetic. For that was used one of rust libaries and small code from webpage: https://medium.com/asecuritysite-when-bob-met-alice/galois-field-gf-2%E2%81%B8-and-rust-503aa218f476.
-To know that I undertand how it works I make example: we have two value 0001 0000 and 01100011, multiplication of this values: X4 * (1+X+X5+X6) = X4+X5+X6+X7 = 1111 0000.
+To know that I undertand how it works I make example: we have two value 00010000 and 01100011, multiplication of this values: X4 * (1+X+X5+X6) = X4+X5+X6+X7 = 1111 0000.
 When we multipled all this values we xor them and put each value into new message whcih would be replace old.
 
 ## Inverse_Key_Expansion
